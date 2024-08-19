@@ -1,0 +1,11 @@
+flask[async]
+flask-cors
+bs4
+pyyaml
+python-dateutil
+tornado
+certifi
+feedparser
+pytz
+rich
+python-dotenv

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build:
+      context: '.'
+      dockerfile: Dockerfile
+    ports:
+      - '666:5004'
+    volumes:
+      - ./data:/app/data
+      - ./public:/app/public
+    restart: always

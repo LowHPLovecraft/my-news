@@ -1,0 +1,33 @@
+- args: {}
+  type: fetch_weather
+
+- args: {}
+  type: fetch_epic_free_games
+
+- args: {}
+  type: fetch_cdkeys
+
+- args:
+    max_limit: 3
+    url: https://devblogs.microsoft.com/dotnet/feed/
+  type: fetch_rss
+
+- args:
+    url: https://www.theguardian.com/uk-news/rss
+  type: fetch_rss
+
+- args:
+    max_limit: 10
+  type: fetch_hackersnews
+
+- args:
+    ignore_list: "(Telugu),(Malayalam),(Hindi),(Tamil),(Cantonese),(Mandarin),(Punjabi),(Kannada),(Turkish),(Urdu),(Arabic),(Romanian),(Polish),(Nepali),(Bengali),(Korean)"
+  type: fetch_movies_in_theatres
+
+- args:
+    max_limit: 10
+    url: https://www.sciencedaily.com/rss/top/health.xml
+  type: fetch_rss
+
+- args: {}
+  type: fetch_downdetector
