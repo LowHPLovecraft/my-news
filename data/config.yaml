@@ -25,9 +25,9 @@
   type: fetch_movies_in_theatres
 
 - args:
-    max_limit: 10
-    url: https://www.sciencedaily.com/rss/top/health.xml
-  type: fetch_rss
-
-- args: {}
+    service: virgin-media
   type: fetch_downdetector
+  
+- args:
+    url: https://blog.jupyter.org/feed
+  type: fetch_rss
